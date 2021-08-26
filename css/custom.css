@@ -1,0 +1,104 @@
+.container {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(255, 255, 255);
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.site-nav a{
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    padding: 10px;
+    border: 2px solid darkorange;
+}
+
+.site-nav a:hover {
+    background-color: gold;
+    color: rgb(122, 57, 57);
+}
+
+html {
+	background-color: #5d8d47;
+}
+
+body {
+	font-family: 'Times New Roman', Times, serif, sans-serif;
+	font-size: 87%;
+    background-color: rgb(201, 183, 84);
+}
+
+.chua{
+    border-top: 3px solid #e5e9dc;
+	border-bottom: 3px solid #e5e9dc;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+    background-color: yellowgreen;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+}
+
+.van1 {
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.dieu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dieu li {
+    list-style: none;
+}
+
+.dieu a {
+    text-decoration: none;
+    display: block;
+    background-color: rgb(212, 154, 154);
+    color:rgb(122, 57, 57);
+    border-bottom:10px solid saddlebrown;
+    padding: 10px;
+}
+
+.dieu .active-parent > a,
+.dieu a:hover {
+    background-color: rgb(155, 177, 32);
+    color: snow;
+}
+
+.dieu ul ul {
+    display: none;
+}
